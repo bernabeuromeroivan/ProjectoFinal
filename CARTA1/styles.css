@@ -9,14 +9,14 @@ body {
     background-color: #f9f9f9;
 }
 
-.gallery-section {
+.texto {
     text-align: center;
     max-width: 900px;
     padding: 20px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin: 0;
     font-weight: bold;
 }
@@ -27,7 +27,7 @@ p {
     margin: 15px 0 20px;
 }
 
-.explore-btn {
+.explorar {
     background-color: #000;
     color: #fff;
     border: none;
@@ -38,20 +38,9 @@ p {
     margin-bottom: 30px;
 }
 
-.explore-btn:hover {
-    background-color: #444;
-}
-
-.image-grid {
+.imagenes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-}
-
-.image-box {
-    width: 100%;
-    padding-top: 100%;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+    justify-content: center ;
 }
