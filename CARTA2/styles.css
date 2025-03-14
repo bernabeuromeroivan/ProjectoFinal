@@ -30,17 +30,10 @@ body {
     border-radius: 5px;
 }
 
-.image-grid {
+.imagenesarriba {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-}
-
-.image-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
 }
 
 .container2 {
