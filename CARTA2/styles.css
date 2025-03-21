@@ -1,47 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    padding: 50px;
-    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-color: #f9f9f9;
 }
 
 .container1 {
-    display: grid;
-    gap: 20px;
-    align-items: center;
+  display: grid;
+  gap: 20px;
+  align-items: center;
 }
 
-.texto{
-    max-width: 400px;
+.texto {
+  max-width: 400px;
 }
 
 .boton {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .imagenesarriba {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .container2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .imagenes {
-    text-align: center;
-    display: flex;
+  text-align: center;
+  display: flex;
+  padding: 0px;
 }
