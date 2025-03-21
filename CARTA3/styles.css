@@ -23,6 +23,7 @@ h1 {
   color: white;
   text-decoration: none;
   border-radius: 16px;
+  cursor: pointer;
 }
 .imagen {
   width: 100%;
