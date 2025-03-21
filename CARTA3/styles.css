@@ -17,15 +17,15 @@ body {
 h1 {
   font-size: 2em;
 }
-.content {
+.contenido {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.text {
+.texto {
   max-width: 400px;
 }
-.button {
+.boton {
   display: inline-block;
   padding: 10px 20px;
   background-color: black;
@@ -34,14 +34,14 @@ h1 {
   border-radius: 5px;
   margin-top: 10px;
 }
-.image-container {
+.imagen {
   width: 100%;
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
 }
-.image-container img {
+.imagen {
   width: 100%;
   height: auto;
 }
