@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  padding: 50px;
+  padding-bottom: 40px;
+  margin-top: 70px;
+  box-shadow: 2px 5px 75px rgba(20, 20, 20, 1);
+}
+
+.container h2 {
+  font-size: 4rem;
+  width: 50%;
+  margin-top: 0;
+}
+
+.container > div {
+  display: flex;
+  gap: 45px;
+}
+
+.container > div > div {
+  width: 300px;
+}
+
+.container img {
+  width: 300px;
+}
+
+.container > div > div > div {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.container p {
+  font-size: 17px;
+  color: black;
+  margin-top: 0;
+}

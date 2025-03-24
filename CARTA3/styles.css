@@ -1,35 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  margin: 40px;
 }
 .container {
-  width: 1313px;
-  max-width: 900px;
-  text-align: left;
+  max-width: 1000px;
+  margin: auto;
 }
-h1 {
-  font-size: 3em;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.texto {
-  max-width: 400px;
+.header h1 {
+  font-size: 50px;
+}
+.header p {
+  font-size: 14px;
+  color: #555;
+  max-width: 300px;
 }
 .boton {
-  display: inline-block;
-  padding: 12px;
   background-color: black;
   color: white;
-  border-radius: 16px;
+  padding: 10px 15px;
   cursor: pointer;
+  border-radius: 16px;
 }
-.imagen {
+.imagen img {
   width: 100%;
+  height: auto;
   margin-top: 20px;
-  text-align: center;
-}
-
-img {
-  width: 100%;
 }
