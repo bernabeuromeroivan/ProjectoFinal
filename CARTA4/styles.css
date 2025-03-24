@@ -8,15 +8,15 @@ body {
   margin: auto;
   align-items: center;
 }
-.image {
+.imagen {
   flex: 1;
 }
-.image img {
+.imagen img {
   width: 100%;
   height: auto;
 }
-.content {
-  flex: 1;
+.contenido {
+  flex: 1px;
   padding: 20px;
 }
 h1 {
@@ -26,7 +26,7 @@ p {
   font-size: 14px;
   color: #555;
 }
-.btn {
+.boton {
   background-color: black;
   color: white;
   padding: 10px 15px;
