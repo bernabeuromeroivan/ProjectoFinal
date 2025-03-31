@@ -1,5 +1,6 @@
 body {
-  background: url("imagenes/Imagen\ Carta\ 16.png") no-repeat center center/cover;
+  background: url("imagenes/Imagen\ Carta\ 16.png") no-repeat center
+    center/cover;
   color: white;
   margin: 0;
   padding: 0;
@@ -11,6 +12,12 @@ h1 {
   font-weight: 800;
   font-size: 64px;
   line-height: 72px;
+}
+
+p {
+  font-weight: 400;
+  size: 26px;
+  line-height: 100%;
 }
 
 .container {
@@ -28,18 +35,6 @@ h1 {
   height: 500px;
   top: 200px;
   margin-left: 60px;
-}
-
-.color-indicators {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 1rem;
-}
-
-.indicator {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
 }
 
 .boton {
