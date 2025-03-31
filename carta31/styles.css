@@ -1,0 +1,40 @@
+body {
+  background-image: url(imagenes/Fondo.png);
+  font-family: "Lato";
+}
+
+h1 {
+  width: 495px;
+  height: 230px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  margin-left: 150px;
+  margin-top: 200px;
+}
+
+p {
+  width: 495px;
+  height: 120px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-top: -30px;
+}
+
+.boton {
+  margin-left: 150px;
+  width: 220px;
+  height: 70px;
+  border-radius: 40px;
+  gap: 10px;
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 20px;
+}
