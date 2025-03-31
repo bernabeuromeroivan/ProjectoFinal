@@ -1,5 +1,6 @@
 body {
-  background: url("imagenes/Imagen\ Carta\ 16.png") no-repeat center center/cover;
+  background: url("imagenes/Imagen\ Carta\ 16.png") no-repeat center
+    center/cover;
   color: white;
   margin: 0;
   padding: 0;
@@ -69,10 +70,11 @@ p {
   transform: translateX(-50%);
 }
 
-.carta {
-  background: rgba(50, 50, 50, 0.8);
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  width: 20%;
+.informacion {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 18px 43px;
+  background-image: linear-gradient(to bottom right, #030808, 10%, transparent);
+  justify-content: space-between;
 }
