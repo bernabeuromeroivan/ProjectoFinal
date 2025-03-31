@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   align-items: center;
   margin-top: 70px;
+  box-shadow: 2px 5px 75px rgba(20, 20, 20, 1);
 }
 
 .container{
