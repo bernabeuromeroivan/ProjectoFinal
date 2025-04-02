@@ -9,7 +9,7 @@ body {
   padding: 50px;
   padding-bottom: 40px;
   margin-top: 70px;
-  box-shadow: 2px 5px 75px rgba(20, 20, 20, 1);
+  border: 1px solid #252525;
 }
 
 .container h2 {
@@ -23,7 +23,7 @@ body {
   gap: 45px;
 }
 
-.container > div > div {
+.container div div {
   width: 300px;
 }
 
@@ -31,7 +31,7 @@ body {
   width: 300px;
 }
 
-.container > div > div > div {
+.container div div div {
   font-size: 25px;
   color: black;
   font-weight: 500;
