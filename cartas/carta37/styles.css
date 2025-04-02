@@ -1,0 +1,23 @@
+body{
+    border: 1px solid #252525;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.texto{
+    margin-left: -500px;
+    margin-top: 200px;
+    font-family: Roboto Mono;
+}
+
+.texto p{
+    width: 400px;
+}
+
+h1{
+    font-size: 60px;
+}
+
