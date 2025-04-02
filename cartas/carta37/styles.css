@@ -8,8 +8,7 @@ body{
 }
 
 .texto{
-    margin-left: -500px;
-    margin-top: 200px;
+    margin-left: -100px;
     font-family: Roboto Mono;
 }
 
@@ -19,5 +18,24 @@ body{
 
 h1{
     font-size: 60px;
+    width: 10px;
+}
+
+.boton{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    border: none;
+    font-family: Roboto Mono;
+}
+
+.imagen{
+    margin-left: 500px;
+    margin-top: -1500px;
 }
 
