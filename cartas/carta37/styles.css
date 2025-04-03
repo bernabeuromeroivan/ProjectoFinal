@@ -1,42 +1,176 @@
-body{
-    border: 1px solid #252525;
-    width: 1500px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    margin-left: 200px;
+body {
+  border: 1px solid #252525;
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  font-family: Roboto Mono;
 }
 
-.texto{
-    margin-left: -100px;
-    font-family: Roboto Mono;
+.texto {
+  margin-left: 30px;
 }
 
-.texto p{
-    width: 400px;
-    font-size: 15px;
+.texto p {
+  width: 400px;
+  font-size: 20px;
 }
 
-h1{
-    font-size: 60px;
-    width: 10px;
+h1 {
+  font-size: 55px;
+  width: 600px;
 }
 
-.boton{
-    width: 150px;
-    height: 50px;
-    font-size: 15px;
-    line-height: 20px;
-    border-radius: 40px;
-    cursor: pointer;
-    background-color: #333333;
-    color: white;
-    border: none;
-    font-family: Roboto Mono;
+.boton {
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #333333;
+  color: white;
+  border: none;
 }
 
-.imagen{
-    margin-left: 500px;
-    margin-top: -1500px;
+.imagen {
+  margin-left: 700px;
+  margin-top: -400px;
+  width: 650px;
+  height: 460px;
 }
 
+.tarjetas{
+    margin-left: 100px;
+}
+
+.uno {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #f1c2b0;
+  margin-bottom: 100px;
+  margin-left: -100px;
+}
+
+.uno p {
+  font-size: 64px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+  color: white;
+}
+
+.uno h1 {
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.uno .subtexto {
+  font-size: 18px;
+  color: black;
+}
+
+.uno .logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 260px;
+  margin-bottom: 300px;
+  position: relative;
+  top: -120px;
+}
+
+.dos {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #f9eb98;
+  margin-top: -350px;
+  margin-left: 250px;
+}
+
+.dos p {
+  font-size: 64px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+  color: white;
+}
+
+.dos h1 {
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.dos .subtexto {
+  font-size: 18px;
+  color: black;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 260px;
+  margin-bottom: 300px;
+  position: relative;
+  top: -120px;
+}
+
+.tres {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #C0D9DD;
+  margin-top: -270px;
+  margin-left: 600px;
+}
+
+.tres p {
+  font-size: 64px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+  color: white;
+}
+
+.tres h1 {
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.tres .subtexto {
+  font-size: 18px;
+  color: black;
+}
+
+.cuatro {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #6975E8;
+  margin-top: -270px;
+  margin-left: 950px;
+}
+
+.cuatro p {
+  font-size: 64px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+  color: white;
+}
+
+.cuatro h1 {
+  margin-left: 20px;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.cuatro .subtexto {
+  font-size: 18px;
+  color: black;
+}
