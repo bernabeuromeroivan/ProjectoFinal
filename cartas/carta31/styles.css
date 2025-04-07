@@ -2,7 +2,11 @@ body {
   background-image: url(imagenes/fondo.png);
   font-family: "Lato";
   background-repeat: no-repeat;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  min-height: 100vh;
 }
 
 h1 {
