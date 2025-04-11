@@ -1,0 +1,41 @@
+body{
+    font-family: Lato;
+}
+
+.container{
+    background-image: url(imagenes/imagenfondocarta23.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h1{
+    width: 700px;
+    height: 200px;
+    font-weight: 900;
+    font-size: 88px;
+    margin-left: 50px;
+    color: white;
+}
+
+.texto p{
+    width: 600px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 50px;
+    color: white;
+}
+
+.texto button{
+    width: 210px;
+    height: 60px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
