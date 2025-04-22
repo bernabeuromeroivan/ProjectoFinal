@@ -5,10 +5,11 @@ body{
 .container{
     background-image: url(imagenes/imagenfondocarta23.png);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 1000px;
+    width: 1200px;
+    height: 800px;
     justify-content: center;
-    align-items: center;
+    align-self: center;
+    dis
 }
 
 .texto h1{
