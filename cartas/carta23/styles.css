@@ -8,6 +8,7 @@ body{
 
 .container{
     background-image: url(imagenes/imagenfondocarta23.png);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1200px;
     height: 800px;
@@ -19,13 +20,14 @@ body{
     width: 700px;
     height: 200px;
     font-weight: 900;
-    font-size: 88px;
+    font-size: 80px;
     margin-left: 50px;
     color: white;
+    padding-top: 50px;
 }
 
 .texto p{
-    width: 600px;
+    width: 500px;
     height: 120px;
     font-weight: 400;
     font-size: 20px;
@@ -45,8 +47,17 @@ body{
 }
 
 .recuadros{
-    width: 400px;
-    height: 230px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.textoabajo{
+    width: 350px;
+    height: 150px;
     border-radius: 16px;
-    background-color: beige;
+    background-image: linear-gradient(to top, #eee3, #fff5);
+    margin-top: 50px;
+    padding: 40px;
+    margin-right: 50px;
+    color: white;
 }
