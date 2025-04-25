@@ -7,13 +7,17 @@ body{
 }
 
 .container{
-    background-image: url(imagenes/imagenfondocarta23.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 1200px;
     height: 800px;
     align-items: center;
     margin: auto;
+}
+
+.carta{
+    background-image: url(imagenes/imagenfondocarta23.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .texto h1{
