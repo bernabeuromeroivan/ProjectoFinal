@@ -1,4 +1,63 @@
 .container{
     background: rgba(47, 47, 47, 1);
-    font-family: 'Poppins';   
+    font-family: 'Poppins';
+    width: 1440px;
+    height: 926px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex; 
+}
+
+.titulos{
+    margin-left: 150px;
+    margin-top: 200px;
+    width: 372px;
+    height: 326px; 
+}
+
+.design, .create, .inspire{
+    font-size: 72px;
+    line-height: 100%;
+}
+
+.design{
+    color: #f2b6b6;
+}
+
+.create{
+    color: #a4e0ff;
+}
+
+.inspire{
+    color: #72f0e0;
+}
+
+.texto, p{
+    font-size: 24px;
+    width: 449px;
+    height: 144px;
+    color: white;
+    margin-left: 75px;
+}
+
+button{
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    margin-left: 75px;
+    font-size: 24px;
+    color: #232323;
+}
+
+.imagenes{
+    margin-left: 650px;
+    margin-top: -640px;
+}
+
+img{
+    margin-right: 12px;
 }
