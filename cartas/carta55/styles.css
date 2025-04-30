@@ -22,7 +22,7 @@ body{
     height: 300px;
     font-size: 80px;
     margin-left: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     font-family: 'PT Serif';
 }
 
@@ -32,6 +32,39 @@ body{
     font-size: 24px;
     color: black;
     margin-left: 50px;
-    margin-bottom: 200px;
 }
+
+.boton{
+    width: 220px;
+    height: 66px;
+    border-radius: 40px;
+    gap: 10px;
+    font-size: 18px;
+    margin-left: 50px;
+    color: white;
+    background-color: #0C0C0C;
+    cursor: pointer;
+}
+
+.partederecha, img{
+    width: 332px;
+    height: 296px;
+}
+
+.partearriba{
+    margin-left: 550px;
+    margin-top: -300px;
+}
+
+.textoderecharriba{
+    width: 332px;
+    height: 78px;
+    color: #E9E9E9;
+    font-size: 20px;
+    font-family: 'Figtree';
+}
+
+span{
+    color: white;
+    margin-left: -50px;
 
