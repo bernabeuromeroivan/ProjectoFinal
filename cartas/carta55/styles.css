@@ -1,8 +1,38 @@
 body{
-    background-image: url(imagenes/imagenfondocarta55.jpg);
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
     width: 1440px;
     height: 1024px;
+    background-image: url(imagenes/imagenfondocarta55.jpg);
+    border: 2px solid #252525;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
+
+.titulo{
+    width: 400px;
+    height: 300px;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 150px;
+    font-family: 'PT Serif';
+}
+
+.texto{
+    width: 446px;
+    height: 160px;
+    font-size: 24px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    
+}
+
