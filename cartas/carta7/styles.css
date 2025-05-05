@@ -44,3 +44,25 @@ h1{
     color: rgba(37, 37, 37, 0.35);
     font-weight: 800;
 }
+
+.texto{
+    width: 316px;
+    height: 66px;
+    font-size: 25px;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+h3{
+    width: 48px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 37, 37, 1);
+}
+
+.texto-abajo{
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    width: 213px;
+    height: 66px;
+}
