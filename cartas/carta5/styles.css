@@ -1,49 +1,47 @@
 body {
-  font-family: sans-serif;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin: 0;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  font-family: 'Avenir';
 }
 
 .container {
+  width: 1440px;
+  height: 954px;
   padding: 50px;
   padding-bottom: 40px;
-  margin-top: 70px;
-  border: 1px solid #252525;
+  border: 2px solid black;
 }
 
-.container h2 {
-  font-size: 4rem;
-  width: 50%;
+.container h1 {
+  font-size: 88px;
+  width: 531px;
   margin-top: 0;
 }
 
-.container > div {
+.imagenes{
   display: flex;
   gap: 45px;
 }
 
-.container div div {
-  width: 300px;
+.imagenes img{
+  width: 400px;
+  height: 345px;
+}
+
+span{
+  width: 38px;
+  height: 44px;
+  font-size: 32px;
+  color: #686868,;
 }
 
 .container img {
   width: 300px;
 }
 
-.container div div div {
-  font-size: 25px;
-  color: black;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-.container p {
-  font-size: 17px;
-  color: black;
-  margin-top: 0;
+.imagenes p{
+  width: 400px;
+  height: 80px;
 }
