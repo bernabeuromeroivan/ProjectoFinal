@@ -61,9 +61,34 @@ h3{
 }
 
 .texto-abajo{
-    position: absolute;
     width: 213px;
-    height: 66px;
-    top: 770px;
     padding: 24px 80px 24px 24px;
+}
+
+.imagen1{
+    background-image: url("imagenes/imagen1carta7.png");
+    background-size: cover;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.imagen2{
+    background-image: url("imagenes/imagen2carta7.png");
+    background-size: cover;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.imagen3{
+    background-image: url("imagenes/imagen3carta7.png");
+    background-size: cover;
+    height: 400px;
+    border-radius: 24px; 
+}
+
+.imagen4{
+    background-image: url("imagenes/imagen4carta7.png");
+    background-size: cover;
+    height: 400px;
+    border-radius: 24px; 
 }
