@@ -58,11 +58,20 @@ h3{
     font-size: 24px;
     font-weight: 400;
     color: rgba(37, 37, 37, 1);
+    margin-bottom: 0;
+    padding-top: 200px;
 }
 
 .texto-abajo{
     width: 213px;
     padding: 24px 80px 24px 24px;
+    background-image: linear-gradient(to top, #000a, 10%, transparent, transparent);
+    border-radius: 16px;
+}
+
+.texto-abajo p{
+    font-weight: 400;
+    color: #252525;
 }
 
 .imagen1{
