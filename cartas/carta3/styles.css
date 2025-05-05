@@ -45,14 +45,12 @@ body {
   gap: 10px;
   font-size: 18px;
   font-weight: 400;
+  font-family: 'Avenir';
 }
 
 .imagen img {
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-
-p{
-  line-height: 1.4;
+  width: 1400px;
+  height: 732px;
+  margin-top: 230px;
+  margin-left: 20px;
 }
