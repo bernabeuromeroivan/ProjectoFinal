@@ -62,7 +62,8 @@ h3{
 
 .texto-abajo{
     position: absolute;
-    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
     width: 213px;
     height: 66px;
+    top: 770px;
+    padding: 24px 80px 24px 24px;
 }
