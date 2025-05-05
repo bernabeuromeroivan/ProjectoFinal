@@ -1,47 +1,47 @@
-body {
-  display: flex;
-  align-items: center;
+body{
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  display: flex;
   font-family: 'Avenir';
 }
 
-.container {
-  width: 1440px;
-  height: 954px;
-  padding: 50px;
-  padding-bottom: 40px;
+.container{
   border: 2px solid black;
+  width: 1440px;
+  height: 926px;
 }
 
-.container h1 {
-  font-size: 88px;
+.titulo{
   width: 531px;
-  margin-top: 0;
+  height: 208px;
+  margin-top: 64px;
+  margin-left: 64px;
+  font-size: 88px;
+  line-height: 90px;
+  color: #252525;
 }
 
-.imagenes{
-  display: flex;
-  gap: 45px;
-}
-
-.imagenes img{
-  width: 400px;
-  height: 345px;
-}
-
-span{
+.numeros{
   width: 38px;
   height: 44px;
+  font-weight: 800;
   font-size: 32px;
-  color: #686868,;
+  margin-left: 64px;
+  color: rgba(37, 37, 37, 0.55)
 }
 
-.container img {
-  width: 300px;
+.texto{
+   width: 400px;
+   height: 132px;
+   margin-left: 64px;
+   font-size: 24px;
+   line-height: 1.2;
+   color:rgba(37, 37, 37, 0.8);
 }
 
-.imagenes p{
+img{
   width: 400px;
-  height: 80px;
+  height: 345px;
+  margin-left: 64px;
 }
