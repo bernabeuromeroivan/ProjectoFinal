@@ -8,8 +8,8 @@ body{
 
 .container{
     background-image: url(imagenes/imagenfondocarta39.png);
-    width: 1400px;
-    height: 920px;
+    width: 1440px;
+    height: 1024px;
     background-repeat: no-repeat;
     border: 1px solid #333;
     display: flex;
