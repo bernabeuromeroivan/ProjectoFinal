@@ -45,3 +45,7 @@ img{
   height: 345px;
   margin-left: 64px;
 }
+
+.imagenes{
+  display: flex;
+}
