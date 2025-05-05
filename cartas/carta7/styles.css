@@ -25,4 +25,22 @@ h1{
     width: 316px;
     height: 402px;
     border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes{
+    width: 1312px;
+    height: 559px;
+    margin-left: 64px;
+    display: flex;
+    gap: 16px;
+}
+
+.numeros{
+    width: 316px;
+    height: 55px;
+    font-size: 40px;
+    color: rgba(37, 37, 37, 0.35);
+    font-weight: 800;
 }
