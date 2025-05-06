@@ -3,6 +3,7 @@ body{
     align-items: center;
     min-height: 100vh;
     display: flex;
+    font-family: 'Roboto Mono';
 }
 
 .container{
@@ -15,6 +16,7 @@ body{
     position: relative;
     background-color: #111111;
     text-align: center;
+    font-family: 'Roboto Mono';
 }
 
 .fondo-negro{
@@ -28,6 +30,9 @@ body{
 
 .titulo{
     color: white;
+    font-size: 104px;
+    font-weight: 700;
+    line-height: 100%;
 }
 
 .container2{
@@ -35,4 +40,109 @@ body{
     z-index: 100;
     margin-top: 233px;
     gap: 48px;
+}
+
+.texto{
+    width: 1187px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+    margin-left: 127px;
+}
+
+.cuadrado-arriba-izquierda{
+    width: 448px;
+    height: 102px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background: linear-gradient(to bottom, #ffffff77, #fff3);
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.cuadrado-arriba-izquierda img{
+    width: 48px;
+    height: 48px;
+    padding-left: 30px;
+}
+
+.cuadrado-abajo-izquierda{
+    width: 448px;
+    height: 102px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background: linear-gradient(to bottom, #ffffff77, #fff3);
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cuadrado-abajo-izquierda img{
+    width: 48px;
+    height: 48px;
+    padding-left: 30px;
+}
+
+.cuadrados p{
+    width: 312px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.cuadrado-arriba-derecha{
+    width: 448px;
+    height: 102px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background: linear-gradient(to bottom, #ffffff77, #fff3);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.cuadrado-arriba-derecha img{
+    width: 48px;
+    height: 48px;
+    padding-left: 30px;
+}
+
+.cuadrado-abajo-derecha{
+    width: 448px;
+    height: 102px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background: linear-gradient(to bottom, #ffffff77, #fff3);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cuadrado-abajo-derecha img{
+    width: 48px;
+    height: 48px;
+    padding-left: 30px;
+}
+
+.cuadrados p{
+    width: 312px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.cuadrados{
+    display: flex;
 }
