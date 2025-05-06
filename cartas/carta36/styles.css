@@ -14,6 +14,7 @@ body{
     background-repeat: no-repeat;
     position: relative;
     background-color: #111111;
+    text-align: center;
 }
 
 .fondo-negro{
@@ -32,4 +33,6 @@ body{
 .container2{
     position: relative;
     z-index: 100;
+    margin-top: 233px;
+    gap: 48px;
 }
