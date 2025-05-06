@@ -1,0 +1,137 @@
+body{
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Avenir';
+}
+
+.container{
+    width: 1440px;
+    height: 1272px;
+    border: 2px solid black;    
+}
+
+.texto{
+    width: 444px;
+    height: 473px;
+    margin-top: 137px;
+    margin-left: 64px;
+}
+
+.texto h1{
+    width: 444px;
+    height: 231px;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 80px;
+    color: #252525;
+}
+
+.texto p{
+    width: 386px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.4;
+    color: rgba(37, 37, 37, 0.8);
+}
+
+.texto button{
+    width: 157px;
+    height: 50px;
+    border-radius: 16px;
+    gap: 10px;
+    background-color: #252525;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: 'Avenir';
+    cursor: pointer;
+}
+
+.imagen1{
+    width: 408px;
+    height: 480px;
+    margin-left: 525px;
+    margin-top: -600px;
+    border-radius: 16px;
+}
+
+.imagen2{
+    margin-left: 968px;
+    width: 408px;
+    height: 480px;
+    margin-top: -500px;
+    border-radius: 16px;
+}
+
+.imagenes-abajo{
+    width: 1316px;
+    height: 440px;
+    display: flex;
+    gap: 40px;
+    margin-top: 150px;
+}
+
+.imagen-izquierda img{
+    width: 412px;
+    height: 379px;
+    border-radius: 16px;
+}
+
+.imagen-izquierda{
+    width: 412px;
+    height: 438px;
+    margin-left: 50px;
+}
+
+.imagen-izquierda span{
+    width: 368px;
+    height: 55px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    color: rgba(37, 37, 37, 0.25);
+}
+
+.imagen-centro img{
+    width: 412px;
+    height: 381px;
+    border-radius: 16px;
+}
+
+.imagen-centro{
+    width: 412px;
+    height: 440px;
+}
+
+.imagen-centro span{
+    width: 368px;
+    height: 55px;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(37, 37, 37, 0.25);
+    line-height: 100%;
+}
+
+.imagen-derecha img{
+    width: 412px;
+    height: 381px;
+    border-radius: 16px;
+}
+
+.imagen-derecha{
+    width: 412px;
+    height: 440px;
+}
+
+.imagen-derecha span{
+    width: 368px;
+    height: 55px;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(37, 37, 37, 0.25);
+    line-height: 100%;
+}
